@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B19013CB168B0BE500B5E183 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19013CA168B0BE500B5E183 /* UIKit.framework */; };
+		B19013CD168B0BE500B5E183 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19013CC168B0BE500B5E183 /* Foundation.framework */; };
+		B19013CF168B0BE500B5E183 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19013CE168B0BE500B5E183 /* CoreGraphics.framework */; };
+		B19013D5168B0BE500B5E183 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B19013D3168B0BE500B5E183 /* InfoPlist.strings */; };
+		B19013D7168B0BE500B5E183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B19013D6168B0BE500B5E183 /* main.m */; };
+		B19013DB168B0BE500B5E183 /* NGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19013DA168B0BE500B5E183 /* NGAppDelegate.m */; };
+		B19013DD168B0BE500B5E183 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B19013DC168B0BE500B5E183 /* Default.png */; };
+		B19013DF168B0BE500B5E183 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B19013DE168B0BE500B5E183 /* Default@2x.png */; };
+		B19013E1168B0BE500B5E183 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B19013E0168B0BE500B5E183 /* Default-568h@2x.png */; };
+		B19013E4168B0BE500B5E183 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19013E2168B0BE500B5E183 /* MainStoryboard_iPhone.storyboard */; };
+		B19013E7168B0BE500B5E183 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19013E5168B0BE500B5E183 /* MainStoryboard_iPad.storyboard */; };
+		B19013EA168B0BE500B5E183 /* NGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19013E9168B0BE500B5E183 /* NGViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B19013C6168B0BE500B5E183 /* TickerTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickerTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19013CA168B0BE500B5E183 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B19013CC168B0BE500B5E183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B19013CE168B0BE500B5E183 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B19013D2168B0BE500B5E183 /* TickerTalk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TickerTalk-Info.plist"; sourceTree = "<group>"; };
+		B19013D4168B0BE500B5E183 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B19013D6168B0BE500B5E183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B19013D8168B0BE500B5E183 /* TickerTalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TickerTalk-Prefix.pch"; sourceTree = "<group>"; };
+		B19013D9168B0BE500B5E183 /* NGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGAppDelegate.h; sourceTree = "<group>"; };
+		B19013DA168B0BE500B5E183 /* NGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGAppDelegate.m; sourceTree = "<group>"; };
+		B19013DC168B0BE500B5E183 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B19013DE168B0BE500B5E183 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B19013E0168B0BE500B5E183 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B19013E3168B0BE500B5E183 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B19013E6168B0BE500B5E183 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B19013E8168B0BE500B5E183 /* NGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGViewController.h; sourceTree = "<group>"; };
+		B19013E9168B0BE500B5E183 /* NGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B19013C3168B0BE500B5E183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19013CB168B0BE500B5E183 /* UIKit.framework in Frameworks */,
+				B19013CD168B0BE500B5E183 /* Foundation.framework in Frameworks */,
+				B19013CF168B0BE500B5E183 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B19013BB168B0BE500B5E183 = {
+			isa = PBXGroup;
+			children = (
+				B19013D0168B0BE500B5E183 /* TickerTalk */,
+				B19013C9168B0BE500B5E183 /* Frameworks */,
+				B19013C7168B0BE500B5E183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B19013C7168B0BE500B5E183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19013C6168B0BE500B5E183 /* TickerTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19013C9168B0BE500B5E183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B19013CA168B0BE500B5E183 /* UIKit.framework */,
+				B19013CC168B0BE500B5E183 /* Foundation.framework */,
+				B19013CE168B0BE500B5E183 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B19013D0168B0BE500B5E183 /* TickerTalk */ = {
+			isa = PBXGroup;
+			children = (
+				B19013D9168B0BE500B5E183 /* NGAppDelegate.h */,
+				B19013DA168B0BE500B5E183 /* NGAppDelegate.m */,
+				B19013E2168B0BE500B5E183 /* MainStoryboard_iPhone.storyboard */,
+				B19013E5168B0BE500B5E183 /* MainStoryboard_iPad.storyboard */,
+				B19013E8168B0BE500B5E183 /* NGViewController.h */,
+				B19013E9168B0BE500B5E183 /* NGViewController.m */,
+				B19013D1168B0BE500B5E183 /* Supporting Files */,
+			);
+			path = TickerTalk;
+			sourceTree = "<group>";
+		};
+		B19013D1168B0BE500B5E183 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B19013D2168B0BE500B5E183 /* TickerTalk-Info.plist */,
+				B19013D3168B0BE500B5E183 /* InfoPlist.strings */,
+				B19013D6168B0BE500B5E183 /* main.m */,
+				B19013D8168B0BE500B5E183 /* TickerTalk-Prefix.pch */,
+				B19013DC168B0BE500B5E183 /* Default.png */,
+				B19013DE168B0BE500B5E183 /* Default@2x.png */,
+				B19013E0168B0BE500B5E183 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B19013C5168B0BE500B5E183 /* TickerTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19013ED168B0BE500B5E183 /* Build configuration list for PBXNativeTarget "TickerTalk" */;
+			buildPhases = (
+				B19013C2168B0BE500B5E183 /* Sources */,
+				B19013C3168B0BE500B5E183 /* Frameworks */,
+				B19013C4168B0BE500B5E183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickerTalk;
+			productName = TickerTalk;
+			productReference = B19013C6168B0BE500B5E183 /* TickerTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B19013BD168B0BE500B5E183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NG;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Neetesh Gupta";
+			};
+			buildConfigurationList = B19013C0168B0BE500B5E183 /* Build configuration list for PBXProject "TickerTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B19013BB168B0BE500B5E183;
+			productRefGroup = B19013C7168B0BE500B5E183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B19013C5168B0BE500B5E183 /* TickerTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B19013C4168B0BE500B5E183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19013D5168B0BE500B5E183 /* InfoPlist.strings in Resources */,
+				B19013DD168B0BE500B5E183 /* Default.png in Resources */,
+				B19013DF168B0BE500B5E183 /* Default@2x.png in Resources */,
+				B19013E1168B0BE500B5E183 /* Default-568h@2x.png in Resources */,
+				B19013E4168B0BE500B5E183 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B19013E7168B0BE500B5E183 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B19013C2168B0BE500B5E183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19013D7168B0BE500B5E183 /* main.m in Sources */,
+				B19013DB168B0BE500B5E183 /* NGAppDelegate.m in Sources */,
+				B19013EA168B0BE500B5E183 /* NGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B19013D3168B0BE500B5E183 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19013D4168B0BE500B5E183 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B19013E2168B0BE500B5E183 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19013E3168B0BE500B5E183 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B19013E5168B0BE500B5E183 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19013E6168B0BE500B5E183 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B19013EB168B0BE500B5E183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B19013EC168B0BE500B5E183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19013EE168B0BE500B5E183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TickerTalk/TickerTalk-Prefix.pch";
+				INFOPLIST_FILE = "TickerTalk/TickerTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B19013EF168B0BE500B5E183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TickerTalk/TickerTalk-Prefix.pch";
+				INFOPLIST_FILE = "TickerTalk/TickerTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B19013C0168B0BE500B5E183 /* Build configuration list for PBXProject "TickerTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19013EB168B0BE500B5E183 /* Debug */,
+				B19013EC168B0BE500B5E183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19013ED168B0BE500B5E183 /* Build configuration list for PBXNativeTarget "TickerTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19013EE168B0BE500B5E183 /* Debug */,
+				B19013EF168B0BE500B5E183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B19013BD168B0BE500B5E183 /* Project object */;
+}
