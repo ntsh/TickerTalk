@@ -19,6 +19,9 @@
 		B19013E4168B0BE500B5E183 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19013E2168B0BE500B5E183 /* MainStoryboard_iPhone.storyboard */; };
 		B19013E7168B0BE500B5E183 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19013E5168B0BE500B5E183 /* MainStoryboard_iPad.storyboard */; };
 		B19013EA168B0BE500B5E183 /* NGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19013E9168B0BE500B5E183 /* NGViewController.m */; };
+		B19013F6168B166C00B5E183 /* NGScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19013F5168B166C00B5E183 /* NGScrollViewController.m */; };
+		B19013FA168B1CC800B5E183 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19013F9168B1CC800B5E183 /* QuartzCore.framework */; };
+		B19013FB168B1DC000B5E183 /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B19013F7168B1C3800B5E183 /* MarqueeLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,11 @@
 		B19013E6168B0BE500B5E183 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		B19013E8168B0BE500B5E183 /* NGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGViewController.h; sourceTree = "<group>"; };
 		B19013E9168B0BE500B5E183 /* NGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGViewController.m; sourceTree = "<group>"; };
+		B19013F4168B166C00B5E183 /* NGScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGScrollViewController.h; path = ../NGScrollViewController.h; sourceTree = "<group>"; };
+		B19013F5168B166C00B5E183 /* NGScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGScrollViewController.m; path = ../NGScrollViewController.m; sourceTree = "<group>"; };
+		B19013F7168B1C3800B5E183 /* MarqueeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarqueeLabel.m; sourceTree = "<group>"; };
+		B19013F8168B1C3800B5E183 /* MarqueeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarqueeLabel.h; sourceTree = "<group>"; };
+		B19013F9168B1CC800B5E183 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19013FA168B1CC800B5E183 /* QuartzCore.framework in Frameworks */,
 				B19013CB168B0BE500B5E183 /* UIKit.framework in Frameworks */,
 				B19013CD168B0BE500B5E183 /* Foundation.framework in Frameworks */,
 				B19013CF168B0BE500B5E183 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +67,7 @@
 		B19013BB168B0BE500B5E183 = {
 			isa = PBXGroup;
 			children = (
+				B19013F9168B1CC800B5E183 /* QuartzCore.framework */,
 				B19013D0168B0BE500B5E183 /* TickerTalk */,
 				B19013C9168B0BE500B5E183 /* Frameworks */,
 				B19013C7168B0BE500B5E183 /* Products */,
@@ -85,12 +95,16 @@
 		B19013D0168B0BE500B5E183 /* TickerTalk */ = {
 			isa = PBXGroup;
 			children = (
+				B19013F7168B1C3800B5E183 /* MarqueeLabel.m */,
+				B19013F8168B1C3800B5E183 /* MarqueeLabel.h */,
 				B19013D9168B0BE500B5E183 /* NGAppDelegate.h */,
 				B19013DA168B0BE500B5E183 /* NGAppDelegate.m */,
 				B19013E2168B0BE500B5E183 /* MainStoryboard_iPhone.storyboard */,
 				B19013E5168B0BE500B5E183 /* MainStoryboard_iPad.storyboard */,
 				B19013E8168B0BE500B5E183 /* NGViewController.h */,
 				B19013E9168B0BE500B5E183 /* NGViewController.m */,
+				B19013F4168B166C00B5E183 /* NGScrollViewController.h */,
+				B19013F5168B166C00B5E183 /* NGScrollViewController.m */,
 				B19013D1168B0BE500B5E183 /* Supporting Files */,
 			);
 			path = TickerTalk;
@@ -178,9 +192,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19013FB168B1DC000B5E183 /* MarqueeLabel.m in Sources */,
 				B19013D7168B0BE500B5E183 /* main.m in Sources */,
 				B19013DB168B0BE500B5E183 /* NGAppDelegate.m in Sources */,
 				B19013EA168B0BE500B5E183 /* NGViewController.m in Sources */,
+				B19013F6168B166C00B5E183 /* NGScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

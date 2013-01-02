@@ -7,7 +7,7 @@
 //
 
 #import "NGViewController.h"
-
+#import <QuartzCore/QuartzCore.h>
 @interface NGViewController ()
 
 @end
@@ -24,6 +24,26 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)dealloc {
+    [_inputBox release];
+    [super dealloc];
+}
+
+- (IBAction)tickerit:(id)sender {
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    NGScrollViewController *destination =
+    [segue destinationViewController];
+    
+    destination.labelText = _inputBox.text;
+}
+
+-(IBAction)returned:(UIStoryboardSegue *)segue {
+    //_inputBox.text = @"Returned from Scene 1";
 }
 
 @end

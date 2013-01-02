@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NGScrollViewController.h"
 
 @interface NGViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UITextView *inputBox;
+- (IBAction)tickerit:(id)sender;
 
 @end
