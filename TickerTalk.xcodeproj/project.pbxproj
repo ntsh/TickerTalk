@@ -22,6 +22,7 @@
 		B19013F6168B166C00B5E183 /* NGScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19013F5168B166C00B5E183 /* NGScrollViewController.m */; };
 		B19013FA168B1CC800B5E183 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19013F9168B1CC800B5E183 /* QuartzCore.framework */; };
 		B19013FB168B1DC000B5E183 /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B19013F7168B1C3800B5E183 /* MarqueeLabel.m */; };
+		B1FB3B601694947400B86EB0 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = B1FB3B5F1694947400B86EB0 /* readme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		B19013F7168B1C3800B5E183 /* MarqueeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarqueeLabel.m; sourceTree = "<group>"; };
 		B19013F8168B1C3800B5E183 /* MarqueeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarqueeLabel.h; sourceTree = "<group>"; };
 		B19013F9168B1CC800B5E183 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B1FB3B5F1694947400B86EB0 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				B19013DC168B0BE500B5E183 /* Default.png */,
 				B19013DE168B0BE500B5E183 /* Default@2x.png */,
 				B19013E0168B0BE500B5E183 /* Default-568h@2x.png */,
+				B1FB3B5F1694947400B86EB0 /* readme */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				B19013E1168B0BE500B5E183 /* Default-568h@2x.png in Resources */,
 				B19013E4168B0BE500B5E183 /* MainStoryboard_iPhone.storyboard in Resources */,
 				B19013E7168B0BE500B5E183 /* MainStoryboard_iPad.storyboard in Resources */,
+				B1FB3B601694947400B86EB0 /* readme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +325,7 @@
 				B19013EF168B0BE500B5E183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
